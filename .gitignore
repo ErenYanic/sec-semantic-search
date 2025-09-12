@@ -259,7 +259,7 @@ yarn-error.log*
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
+.vscode/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
@@ -369,3 +369,25 @@ logs/
 # Ignore directories containing user credentials, local state, and settings.
 # Learn more at https://abstra.io/docs
 .abstra/
+
+# =============================================================================
+# PROJECT-SPECIFIC FILES
+# =============================================================================
+
+# Proje Planı (data_management/*) altında tanımlanan ve takip edilmemesi gereken
+# büyük veri ve çıktı klasörleri.
+data_management/raw_filings/
+data_management/parsed_json/
+data_management/embeddings/
+data_management/vector_indices/
+
+# Metadata klasöründeki log dosyaları
+data_management/metadata/*.log
+
+# =============================================================================
+# DOKÜMANTASYON & PROJE BELGELERİ
+# =============================================================================
+SEC 10-K Parser + Vector Search Engine - Project Plan.pdf
+
+# Proje klasöründeki tüm PDF dosyalarını göz ardı etmek isterseniz:
+# *.pdf
