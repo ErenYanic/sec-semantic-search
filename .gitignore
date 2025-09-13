@@ -380,6 +380,7 @@ data_management/raw_filings/
 data_management/parsed_json/
 data_management/embeddings/
 data_management/vector_indices/
+/sec-semantic-search/
 
 # Metadata klasöründeki log dosyaları
 data_management/metadata/*.log
