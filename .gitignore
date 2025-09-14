@@ -301,6 +301,7 @@ Thumbs.db
 
 # Large datasets (uncomment if needed)
 *.csv
+*.txt
 *.json
 *.parquet
 *.feather
